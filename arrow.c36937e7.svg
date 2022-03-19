@@ -1,0 +1,37 @@
+<svg
+  width="30px"
+  height="30px"
+  viewBox="0 0 46 46"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    stroke="none"
+    stroke-width="1"
+    fill="none"
+    fill-rule="evenodd"
+    transform="translate(-1064.000000, -674.000000)"
+  >
+    <g id="first-screen" transform="translate(0.000000, 126.000000)">
+      <g transform="translate(1004.000000, 548.000000)">
+        <g transform="translate(60.628278, 0.000000)">
+          <rect
+            id="Placeholder"
+            fill="none"
+            x="0"
+            y="0"
+            width="45.0825656"
+            height="46"
+            rx="1.287"
+          ></rect>
+          <polygon
+            id="filler"
+            fill="#333333"
+            points="28.7595677 23 19.0362261 32.5172414 17.8856761 31.3854477 26.4917962 23 17.8775691 14.5964044 19.0362261 13.4827586"
+          ></polygon>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
