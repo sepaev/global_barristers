@@ -1,0 +1,113 @@
+.slider {
+  display: block;
+  width: 100%;
+  height: calc(100vh - 95px);
+  margin-bottom: 60px;
+  position: relative;
+  overflow: hidden;
+
+  &__backgrnd {
+    height: calc(100vh - 95px);
+    background: $aqua-background-color;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+  }
+  &__container {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // display: flex;
+  }
+  &__heading {
+    max-width: 693px;
+    color: $white-color;
+  }
+}
+
+.form {
+  &__line {
+    display: flex;
+    align-items: center;
+  }
+  &__mask {
+    position: relative;
+    margin-right: 15px;
+  }
+  &__input {
+    height: 40px;
+    padding-left: 15px;
+    border: 1px solid $white-color;
+    border-radius: 4px;
+    font-size: 16px;
+    color: $white-color;
+    background: transparent;
+    direction: ltr;
+    &::placeholder {
+      color: $white-color;
+    }
+  }
+
+  &__submit-bg {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    background: $white-background-color;
+    max-width: 251px;
+    height: 40px;
+    background: $orange-background-color !important;
+    border-color: $orange-background-color;
+    color: $white-color;
+    &:hover {
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    &:hover:after {
+      height: 600%;
+      opacity: 1;
+    }
+    &:after {
+      content: '';
+      width: 100%;
+      height: 0;
+      top: 50%;
+      left: 50%;
+      background: $aqua-background-color;
+      opacity: 0;
+      transform: translateX(-50%) translateY(-50%) rotate(45deg);
+      display: block;
+      position: absolute;
+      transition: all 0.5s;
+    }
+    &:hover .form__submit-btn {
+      color: $white-color;
+      z-index: 500;
+      border-color: $aqua-background-color;
+      transition: 0.25s;
+    }
+  }
+  &__submit-btn {
+    height: 40px;
+    background: transparent;
+    padding: 0 15px;
+    color: $white-color;
+    font-size: 16px;
+    border: 1px solid $white-color;
+    border-radius: 4px;
+    transition: 0.25s;
+    cursor: pointer;
+    color: $aqua-color;
+    position: relative;
+    color: $white-color !important;
+    border: 1px solid #ff9900 !important;
+    @media (min-width: 1200px) {
+      & {
+        width: 250px;
+      }
+    }
+  }
+}

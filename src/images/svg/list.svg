@@ -1,0 +1,44 @@
+<svg
+  width="14px"
+  height="15px"
+  viewBox="0 0 14 15"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <defs>
+    <path
+      d="M13,13 L3,13 C2.448,13 2,12.553 2,12 L2,1 C2,0.447 2.448,0 3,0 L13,0 C13.552,0 14,0.447 14,1 L14,12 C14,12.553 13.552,13 13,13 Z M13,1.501 C13,1.225 12.776,1.001 12.5,1.001 L3.5,1.001 C3.224,1.001 3,1.224 3,1.501 L3,11.501 C3,11.776 3.224,12.001 3.5,12.001 L12.5,12.001 C12.776,12.001 13,11.777 13,11.501 L13,1.501 Z M11.5,10.001 L4.5,10.001 C4.224,10.001 4,9.777 4,9.5 C4,9.224 4.224,9 4.5,9 L11.5,9 C11.776,9 12,9.224 12,9.5 C12,9.777 11.776,10.001 11.5,10.001 Z M11.5,7 L4.5,7 C4.224,7 4,6.776 4,6.5 C4,6.224 4.224,6 4.5,6 L11.5,6 C11.776,6 12,6.224 12,6.5 C12,6.776 11.776,7 11.5,7 Z M8.5,4 L4.5,4 C4.224,4 4,3.777 4,3.5 C4,3.223 4.224,3 4.5,3 L8.5,3 C8.776,3 9,3.224 9,3.5 C9,3.776 8.776,4 8.5,4 Z M12,15.001 L1,15.001 C0.448,15.001 0,14.553 0,14.001 L0,3.001 C0,2.449 0.448,2.001 1,2.001 L1,14 L13,14 C13,14.553 12.552,15.001 12,15.001 Z"
+      id="path-1"
+    ></path>
+  </defs>
+  <g
+    id="Mitrax_main_27.02.2018"
+    stroke="none"
+    stroke-width="1"
+    fill="none"
+    fill-rule="evenodd"
+    transform="translate(-649.000000, -2199.000000)"
+  >
+    <g id="projects" transform="translate(73.000000, 2029.000000)">
+      <g id="Accordions" transform="translate(574.000000, 165.000000)">
+        <g id="Accordion" transform="translate(2.000000, 0.000000)">
+          <g
+            id="2.-Icons-/-2.-Icon-Box-/-16-Size--/-ic_shop"
+            transform="translate(0.000000, 5.000000)"
+          >
+            <mask id="mask-2" fill="white">
+              <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="ic_news" fill-rule="nonzero"></g>
+            <g id="icon-color" mask="url(#mask-2)" fill="#333333">
+              <g transform="translate(-1.000000, 0.000000)" id="Gray-20">
+                <rect x="0" y="0" width="16" height="16"></rect>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+.footer {
+  height: auto;
+  font-weight: 400;
+  padding-top: 25px;
+  background: #0a5a6a;
+  padding-bottom: 25px;
+  height: auto;
+  &__wrapper {
+    padding-top: 20px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+}

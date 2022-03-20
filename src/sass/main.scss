@@ -1,0 +1,15 @@
+@import './utils/variables';
+@import './utils/common';
+@import './utils/keyframes';
+
+@import './components/common/header';
+@import './components/common/footer';
+@import './components/common/btnGoTop';
+
+@import './components/home/slider';
+@import './components/home/reasons';
+@import './components/home/info';
+@import './components/home/projects';
+@import './components/home/seo';
+
+@import './components/notFound/notFound';

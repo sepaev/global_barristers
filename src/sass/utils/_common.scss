@@ -1,0 +1,138 @@
+* {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1140px;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  // height: 100%;
+}
+
+p {
+  color: $lightgray-color;
+}
+a,
+p a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: disc;
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: 14px;
+  color: $black-color;
+  letter-spacing: 1px;
+  transition: 0.1s ease-in-out;
+  will-change: font-weight;
+}
+section {
+  margin-bottom: 90px;
+}
+
+.content h1,
+h1 {
+  font-size: 30px;
+  line-height: 1.53333;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 23px;
+}
+
+h2 {
+  font-size: 36px;
+  letter-spacing: 1.2px;
+  line-height: 36.8px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 30.08px;
+  margin-bottom: 15px;
+}
+
+h1,
+h2,
+h3,
+p a {
+  color: $aqua-color;
+}
+.consult-btn {
+  text-align: center;
+  border: 1px solid $aqua-background-color;
+  background: $orange-background-color;
+  border-color: $orange-background-color;
+  color: $white-color;
+  border-radius: 4px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 14px;
+  padding: 10px 23px;
+  display: inline-block;
+  overflow: hidden;
+  transition: all 0.3s;
+  opacity: 1 !important;
+  transform: matrix(1, 0, 0, 1, 0, 0) !important;
+  will-change: font-weight;
+  box-sizing: content-box;
+  &:hover {
+    color: #fff;
+  }
+  &:after {
+    content: '';
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: $aqua-background-color;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    display: block;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  &:hover:after {
+    height: 600%;
+    opacity: 1;
+  }
+}
+.btn-default {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  color: $gray-color;
+  letter-spacing: 1px;
+  line-height: 14px;
+  padding: 15px 26px;
+  display: inline-block;
+  margin-top: 30px;
+  transition: all 0.2s ease-in-out;
+  will-change: font-weight;
+  &:hover {
+    border-color: $aqua-background-color;
+    color: $white-color;
+    background-color: $aqua-background-color;
+  }
+}
+
+.btn-default,
+aside li a {
+  text-transform: uppercase;
+}

@@ -1,0 +1,51 @@
+.info {
+  &__container {
+    position: relative;
+    max-width: 1015px;
+  }
+  &__photo-block {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+  }
+  &__text-block {
+    width: 50.04926%;
+    padding-right: 67px;
+    z-index: 2;
+  }
+  &__heading {
+    visibility: visible;
+    // animation-name: fadeInUp;
+    animation-timing-function: $fadeInUp-function;
+    animation-duration: $fadeInUp-duration;
+    animation-fill-mode: both;
+  }
+  &__text-p {
+    padding-right: 67px;
+    z-index: 2;
+    opacity: 1;
+    font-size: 14px;
+    letter-spacing: 0.09px;
+    line-height: 1.71429;
+    margin-bottom: 16px;
+  }
+  &__image-container {
+    visibility: visible;
+    // animation-name: fadeInUpBig;
+    top: 0;
+    height: 100%;
+    width: 49.95074%;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    left: 50%;
+    position: absolute;
+    overflow: hidden;
+    max-width: 548px;
+  }
+  &__image-img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,78 @@
+.projects {
+  &__info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  &__picture-box {
+    visibility: visible;
+    // animation-name: fadeInUpBig;
+    width: 45%;
+    height: 610px;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+  }
+  &__picture-img {
+    width: 100%;
+    height: 607px;
+    object-fit: cover;
+    will-change: transform;
+    visibility: visible;
+    @media (min-width: 1800px) {
+      & {
+        display: block;
+      }
+    }
+  }
+  &__list {
+    width: 49%;
+    padding-left: 56px;
+    z-index: 2;
+  }
+  &__title {
+    visibility: visible;
+    // animation-name: fadeInUp;
+    margin-bottom: 10px;
+    animation-timing-function: $fadeInUp-function;
+    animation-duration: $fadeInUp-duration;
+    animation-fill-mode: both;
+  }
+  &__text {
+    opacity: 1;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.42105;
+    letter-spacing: 0.12px;
+    margin-bottom: 40px;
+  }
+  &__item {
+    margin-bottom: 35px;
+  }
+  &__item-link {
+    display: flex;
+    align-items: center;
+  }
+  &__item-title {
+    color: $gray-color;
+    font-size: 16px;
+    line-height: 26px;
+    &:hover {
+      color: $aqua-color;
+    }
+    &:hover + .projects__img-arrow {
+      transform: translateX(10px);
+      fill: $aqua-color;
+    }
+  }
+  &__img-list {
+    margin-right: 15px;
+  }
+  &__img-arrow {
+    transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1),
+      opacity 1s cubic-bezier(0.19, 1, 0.22, 1), -webkit-transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+    &:hover {
+      transform: translateX(10px);
+      fill: $aqua-color;
+    }
+  }
+}
