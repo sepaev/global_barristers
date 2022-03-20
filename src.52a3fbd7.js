@@ -1,7 +1,7 @@
 parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcelRequire,u="function"==typeof require&&require;function f(t,n){if(!r[t]){if(!e[t]){var i="function"==typeof parcelRequire&&parcelRequire;if(!n&&i)return i(t,!0);if(o)return o(t,!0);if(u&&"string"==typeof t)return u(t);var c=new Error("Cannot find module '"+t+"'");throw c.code="MODULE_NOT_FOUND",c}p.resolve=function(r){return e[t][1][r]||r},p.cache={};var l=r[t]=new f.Module(t);e[t][0].call(l.exports,p,l,l.exports,this)}return r[t].exports;function p(e){return f(p.resolve(e))}}f.isParcelRequire=!0,f.Module=function(e){this.id=e,this.bundle=f,this.exports={}},f.modules=e,f.cache=r,f.parent=o,f.register=function(r,t){e[r]=[function(e,r){r.exports=t},{}]};for(var c=0;c<t.length;c++)try{f(t[c])}catch(e){i||(i=e)}if(t.length){var l=f(t[t.length-1]);"object"==typeof exports&&"undefined"!=typeof module?module.exports=l:"function"==typeof define&&define.amd?define(function(){return l}):n&&(this[n]=l)}if(parcelRequire=f,i)throw i;return f}({"clu1":[function(require,module,exports) {
 
 },{}],"uJ3m":[function(require,module,exports) {
-"use strict";function e(e){let[t,o,r]=e;return r||(r="uk"),o||(o="home"),"uk"!==o&&"en"!==o&&"ru"!==o||(r=o,o="home"),"ru"!=(r=r.toString().toLowerCase())&&(r="en"===r?"en":"uk"),[o=o.toString().toLowerCase(),r]}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var t=e;exports.default=t;
+"use strict";function e(e){let t,r;return"global_barristers"===e[1]?(t=e[2],r=e[3]):(t=e[1],r=e[2]),r||(r="uk"),t||(t="home"),"uk"!==t&&"en"!==t&&"ru"!==t||(r=t,t="home"),"ru"!=(r=r.toString().toLowerCase())&&(r="en"===r?"en":"uk"),[t=t.toString().toLowerCase(),r]}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var t=e;exports.default=t;
 },{}],"a5xh":[function(require,module,exports) {
 module.exports="/global_barristers/logo.081bc196.svg";
 },{}],"C4vb":[function(require,module,exports) {
@@ -35,4 +35,4 @@ module.exports=function(n){return new Promise(function(e,o){var r=document.creat
 },{}],0:[function(require,module,exports) {
 var b=require("TUK3");b.register("js",require("Yi9z"));
 },{}]},{},[0,"Focm"], null)
-//# sourceMappingURL=/global_barristers/src.c85b1f44.js.map
+//# sourceMappingURL=/global_barristers/src.52a3fbd7.js.map
