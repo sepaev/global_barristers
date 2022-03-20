@@ -1,4 +1,4 @@
-const HOST = document.location.origin;
+import getHost from '../../helpers/getHost';
 import image from '../../../images/slider/site_slide_bg-4-2.webp';
 import list from '../../../images/svg/list.svg';
 import arrow from '../../../images/svg/arrow.svg';
@@ -9,6 +9,7 @@ import infoHBS from './info.hbs';
 import projectsHBS from './projects.hbs';
 import seoHBS from './seo.hbs';
 
+const { HOST } = getHost();
 const slider = lang => sliderHBS({ image, lang });
 const reasons = lang => reasonsHBS({ HOST, lang });
 const info = lang => infoHBS({ HOST, lang });
