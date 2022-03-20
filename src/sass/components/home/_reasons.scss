@@ -3,6 +3,7 @@
   //    display: block;
   //   }
   &__heading {
+    opacity: 0;
     // animation-name: fadeInUp;
     visibility: visible;
     text-align: center;
@@ -22,6 +23,7 @@
   &__item {
     visibility: visible;
     animation-delay: 0.2s;
+    opacity: 0;
     // animation-name: fadeInUp;
     width: 30%;
     display: flex;
@@ -65,8 +67,5 @@
     animation-name: fadeInUp;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    &:hover {
-      // padding: 10px 14.5px;
-    }
   }
 }

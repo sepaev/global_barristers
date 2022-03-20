@@ -103,7 +103,7 @@
     color: $aqua-color;
     position: relative;
     color: $white-color !important;
-    border: 1px solid #ff9900 !important;
+    border: 1px solid $orange-background-color !important;
     @media (min-width: 1200px) {
       & {
         width: 250px;

@@ -1,7 +1,10 @@
 function fixHeaderOnTop(screenHistory, currentScreenPosition, topMenuHeight, refs) {
   const { headerRef, preHeaderRef } = refs;
   let { lastScreenPosition, lastScreenDirection } = screenHistory;
-
+  //anti loop effect
+  if (Math.abs(lastScreenPosition - currentScreenPosition) <= 35)
+    return { lastScreenPosition: currentScreenPosition, lastScreenDirection };
+  //main code
   if (lastScreenPosition < currentScreenPosition) {
     if (lastScreenDirection !== 'moving down') {
       headerRef.style.top = '-' + topMenuHeight + 'px';

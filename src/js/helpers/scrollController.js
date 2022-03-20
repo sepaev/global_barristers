@@ -18,11 +18,14 @@ function scrollController() {
     'scroll',
     throttle(200, false, function () {
       const currentScreenPosition = window.pageYOffset;
+      //show button go top
       btnGoTopController(currentScreenPosition, screenBottom, btnGoTop);
+      //sticky header
       screenHistory = fixHeaderOnTop(screenHistory, currentScreenPosition, topMenuHeight, {
-        header,
-        preHeader,
+        headerRef: header,
+        preHeaderRef: preHeader,
       });
+      //animation on scroll
       nonAnimatedElements = activateAnimation(nonAnimatedElements);
     }),
   );
