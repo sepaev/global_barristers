@@ -1,9 +1,9 @@
 const screenBottom = document.documentElement.clientHeight;
 const completeText = 'all elements was animated';
 
-function activateAnimation(target) {
+function doAnimation(target) {
   target.style.animationName = target.dataset.animation;
-  target.style.opacity = '1';
+  target.style.opacity = 1;
 }
 
 function activateAnimation(targets = [], filtred = []) {
@@ -16,9 +16,9 @@ function activateAnimation(targets = [], filtred = []) {
     const elementTop = element.getBoundingClientRect().top;
     const elementBottom = element.getBoundingClientRect().bottom;
     if (elementTop > 0 && elementTop < screenBottom) {
-      activateAnimation(element);
+      doAnimation(element);
     } else if (elementBottom > 0 && elementBottom < screenBottom) {
-      activateAnimation(element);
+      doAnimation(element);
     } else {
       filtred.push(element);
     }
